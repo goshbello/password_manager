@@ -1,0 +1,24 @@
+* { margin: 0 padding 0; box-sizing: border-box;}
+html {font-size: 62.5%;}
+
+.page-container {
+  max-width: $container;
+  margin: 0 auto;
+}
+
+// sitcky footer styling
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+}
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
